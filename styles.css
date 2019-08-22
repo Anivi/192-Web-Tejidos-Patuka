@@ -28,6 +28,9 @@ input{
   opacity: 0.6;
   outline: none;
 }
+.landing__navegador{
+   border-bottom: 1px solid #4D4C4C;
+}
 .landing__navegador ul{
     list-style-type: none;
     text-align: center;
@@ -54,10 +57,56 @@ input{
     background-color: #333333;
     color: #ffffff;
  }
- #thor{
+ .landing__portada{
+  display: flex;
+  justify-content: space-around;
+
+ }
+ .portada__foto{
+    flex-basis: 58%;
+    height: 600px;
+ }
+ .portada__foto-thor{
     width:600px;
     height:600px;
     position: relative;
     top: 60px; 
     left: 8px;
+ }
+ .portada__info{
+    color: yellow;
+    flex-basis:35%; 
+    align-content: center;
+    margin:auto;
+ }
+ .portada__info-texto{
+
+ }
+ .portada__foto-boton{
+
+ }
+ .landing__datos{
+   display: flex; 
+   background-color: palevioletred;
+   justify-content: space-around;
+   height: 200px;
+   width: 100%;
+   padding: auto;
+ }
+ .datos__uno{
+background-color: #ffffff;
+display: flex;
+justify-content: space-around;
+flex-basis: 30%;
+height: 40%;
+margin: auto;
+border-radius: 50px;
+ }
+ .datos__uno-img{
+    width: 20%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+
  }
