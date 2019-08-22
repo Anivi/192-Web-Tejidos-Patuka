@@ -2,7 +2,9 @@ header{
     width: display;
     height: 18px;
     padding: 20px 50px;
-    border: 1px solid gray ;
+  
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2)  ;
+    
 }
 
 body{
@@ -14,7 +16,7 @@ img{
     width:108px;
     height:50px;
     position: relative;
-    top: -16px; /* ajustar los valores para mover la imagen */
+    top: -16px; 
     left: 500px;
 }
 input{
@@ -23,33 +25,39 @@ input{
   left: 900px;
   border-radius: 8px;
   border: 1px solid #4D4C4C;
-  opacity: 1.0;
+  opacity: 0.6;
   outline: none;
 }
-#navegador ul{
+.landing__navegador ul{
     list-style-type: none;
     text-align: center;
 
     
  }
- #navegador li{
+ .landing__navegador li{
     display: inline;
     text-align: center;
-    margin: 100px 70px 80px 20px;
+    margin: 100px 60px 0px 0px ;
     position: relative;
     top: -20px;
     
 
  }
- #navegador li a {
+ .landing__navegador li a {
     padding: 2px 7px 2px 7px;
     text-decoration: none;
     color: #4D4C4C;
     font-family: muli;
  }
 
- #navegador li a:hover{
+ .landing__navegador li a:hover{
     background-color: #333333;
     color: #ffffff;
  }
- 
+ #thor{
+    width:600px;
+    height:600px;
+    position: relative;
+    top: 60px; 
+    left: 8px;
+ }
