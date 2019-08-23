@@ -37,6 +37,7 @@ input{
 }
 .landing__navegador{
    border-bottom: 1px solid #4D4C4C;
+   width: 100%;
 }
 .landing__navegador ul{
     list-style-type: none;
@@ -123,8 +124,76 @@ border-radius: 50px;
     background-position: center center;
 
  }
+ .landing__aleja{
+   display: flex;
+   justify-content: space-around; 
+ }
+ .aleja__texto{
+   flex-basis:35%; 
+   align-content: center;
+   margin-left:70%;
+   
+   position: absolute;
+ }
+ .aleja__texto-titulo{
+    color: #CC98A1;
+    font-family: Anton Regular;
+ }
+ .aleja__atras{
+   display: flex;
+   width: 100%;
+   height: 100%;
+ }
  .aleja__atras-img{
    width: 100%;
    height: 100%;
+   position: relative;
   
  }
+ .landing__carac{
+   align-content: center;
+   position: relative;
+   display: block;
+   justify-content: space-around; 
+   
+ }
+ .landing__carac-uno{
+    display: flex;
+ }
+ .carac__uno-img{
+   position: absolute;
+   width: 100%;
+   height:44% ;
+  
+ }
+ .carac__uno-tex{
+   position: relative;
+ }
+ .landing__carac-dos{
+   display: flex;
+   height: 288px;
+}
+ .carac__dos-img{
+   position: absolute;
+   width: 100%;
+   height:44% ;
+  
+ }
+ .carac__dos-tex{
+   position: relative;
+}
+ .landing__carac-tres{
+   display: flex;
+   height: 288px;
+}
+ .carac__tres-img{
+   position: absolute;
+   width: 100%;
+   height:44% ;
+  
+ }
+ .carac__tres-tex{
+   position: relative;
+}
+
+
