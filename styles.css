@@ -1,16 +1,23 @@
 header{
-    width: display;
+    width: 100%;
     height: 18px;
-    padding: 20px 50px;
-  
+    padding: 20px 80px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2)  ;
     
 }
+
+/*.landing{
+  width: 100%;
+  box-sizing: border-box;
+}*/
 
 body{
     width: 100%;
     padding: 0;
     margin: 0;
+}
+.landing__up{
+  width: 100%;
 }
 .landing__up-logo{
    width:108px;
@@ -36,8 +43,8 @@ input{
   outline: none;
 }
 .landing__navegador{
-   border-bottom: 1px solid #4D4C4C;
-   width: 100%;
+  /* border-bottom: 1px solid #4D4C4C;*/
+   width: 100%;*/
 }
 .landing__navegador ul{
     list-style-type: none;
@@ -91,10 +98,12 @@ input{
  }
  .portada__info-titulo{
    color:#A87E12;
+   font-size: 90px;
  }
  .portada__info-texto{
-color: #333333;
-font-family: muli;
+
+ color: #333333;
+ font-family: muli;
  }
  .portada__foto-boton{
 
@@ -157,43 +166,38 @@ border-radius: 50px;
    justify-content: space-around; 
    
  }
- .landing__carac-uno{
+ .landing__carac-uno, .landing__carac-dos, .landing__carac-tres{
+    width: 100%;
+
+    background-image: url('./imagenes/primero.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+
+    height: 200px;
+
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
  }
- .carac__uno-img{
-   position: absolute;
-   width: 100%;
-   height:44% ;
-  
- }
- .carac__uno-tex{
-   position: relative;
- }
+
  .landing__carac-dos{
-   display: flex;
-   height: 288px;
+  background-image: url('./imagenes/segundo.png');
 }
- .carac__dos-img{
-   position: absolute;
-   width: 100%;
-   height:44% ;
-  
- }
- .carac__dos-tex{
+.landing__carac-tres{
+  background-image: url('./imagenes/tercero.png');
+}
+
+ .landing__carac-text{
    position: relative;
-}
- .landing__carac-tres{
-   display: flex;
-   height: 288px;
-}
- .carac__tres-img{
-   position: absolute;
-   width: 100%;
-   height:44% ;
-  
+   margin: auto;
+   text-align: center;
+   font-family: Anton Regular;
+   color: #ffffff;
  }
- .carac__tres-tex{
-   position: relative;
-}
+
 
 
