@@ -16,10 +16,10 @@ body{
     padding: 0;
     margin: 0;
 }
-.landing__up{
+.barra__up{
   width: 100%;
 }
-.landing__up-logo{
+.logo{
    width:108px;
    height:50px;
    position: relative;
@@ -42,17 +42,17 @@ input{
   opacity: 0.6;
   outline: none;
 }
-.landing__navegador{
+.barra__navegador{
   /* border-bottom: 1px solid #4D4C4C;*/
    width: 100%;*/
 }
-.landing__navegador ul{
+.barra__navegador ul{
     list-style-type: none;
     text-align: center;
 
     
  }
- .landing__navegador li{
+ .barra__navegador li{
     display: inline;
     text-align: center;
     margin: 100px 60px 0px 0px ;
@@ -61,14 +61,14 @@ input{
     
 
  }
- .landing__navegador li a {
+ .barra__navegador li a {
     padding: 2px 7px 2px 7px;
     text-decoration: none;
     color: #4D4C4C;
     font-family: muli;
  }
 
- .landing__navegador li a:hover{
+ .barra__navegador li a:hover{
     background-color: #333333;
     color: #ffffff;
  }
