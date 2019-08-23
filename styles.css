@@ -12,7 +12,14 @@ body{
     padding: 0;
     margin: 0;
 }
-img{
+.landing__up-logo{
+   width:108px;
+   height:50px;
+   position: relative;
+   top: -16px; 
+   left: 500px;
+}
+.portada__foto-thor{
     width:108px;
     height:50px;
     position: relative;
@@ -73,21 +80,27 @@ input{
     top: 60px; 
     left: 8px;
  }
+ 
  .portada__info{
-    color: yellow;
+    
     flex-basis:35%; 
     align-content: center;
     margin:auto;
+    
+ }
+ .portada__info-titulo{
+   color:#A87E12;
  }
  .portada__info-texto{
-
+color: #333333;
+font-family: muli;
  }
  .portada__foto-boton{
 
  }
  .landing__datos{
    display: flex; 
-   background-color: palevioletred;
+   background-color: rgba(249, 227, 240, 0.7);
    justify-content: space-around;
    height: 200px;
    width: 100%;
@@ -109,4 +122,9 @@ border-radius: 50px;
     background-repeat: no-repeat;
     background-position: center center;
 
+ }
+ .aleja__atras-img{
+   width: 100%;
+   height: 100%;
+  
  }
