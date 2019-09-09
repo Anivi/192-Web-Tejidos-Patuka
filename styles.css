@@ -28,7 +28,7 @@ body{
    height:50px;
    position: relative;
    top: -16px; 
-   left: 500px;
+   left: 575px;
 }
 .portada__foto-thor{
     width:108px;
@@ -100,14 +100,19 @@ input{
     margin:auto;
     
  }
+
+ /*aqui esta la foto del nombre de thor*/
  .portada__info-titulo{
-   color:#A87E12;
-   font-size: 90px;
+   
+   
  }
  .portada__info-texto{
 
- color: #333333;
+ color: #555252;
  font-family: muli;
+ font-size: 23px;
+ text-align: center;
+
  }
  .portada__foto-boton{
 
@@ -143,16 +148,22 @@ font-family: muli;
    justify-content: space-around; 
  }
  .aleja__texto{
+   
+   padding: 135px 20px;
    flex-basis:35%; 
    align-content: center;
-   margin-left:70%;
+   margin-left:65%;
    font-family: muli;
+   font-size: 25px;
+   text-align: center;
+   color: #535353;
    
    position: absolute;
  }
  .aleja__texto-titulo{
     color: #CC98A1;
     font-family: Anton Regular;
+    font-size: 60px;
  }
  .aleja__atras{
    display: flex;
@@ -165,6 +176,20 @@ font-family: muli;
    position: relative;
   
  }
+
+ .aleja__texto-boton{
+  padding: 10px 20px;
+  background-color: white;
+  color: #ffffff;
+  background-color:  #CC98A1;
+  border: 0px;
+  border-radius: 20px  ;
+  font-family: muli;
+  font-size:20px ;
+  font-weight: bold;
+  
+ }
+
  .landing__carac{
    align-content: center;
    position: relative;
@@ -179,7 +204,9 @@ font-family: muli;
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
-    font-family: muli;
+    font-family: Anton Regular;
+    font-size: 30px;
+    color: #ffffff;
 
     height: 200px;
 
@@ -234,11 +261,24 @@ background-color: #ffffff;
 }
 
 .landing__interaccion-fondo{
+  display: flex;
   width: 100%;
   height: 500px;
   background-image: linear-gradient(to right, rgb(250, 198, 27), rgb(255, 255, 255));
 
 }
+
+.landing__interaccion-lana{
+
+  width: 100px;
+  height: 100px;
+  
+}
+.interaccion__mujer{
+  
+  
+}
+
 
 .landing__especificaciones-fondo{
   display: flex;
@@ -287,10 +327,4 @@ background-color: #ffffff;
   padding: 35px 20px;
 }
 
-.inscripcion__correo{
-  position: relative;
-  border-radius: 8px;
-  border: 1px solid #4D4C4C;
-  opacity: 0.6;
-  outline: none;
-}
+
