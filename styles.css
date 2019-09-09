@@ -128,6 +128,7 @@ flex-basis: 30%;
 height: 40%;
 margin: auto;
 border-radius: 50px;
+font-family: muli;
  }
  .datos__uno-img{
     width: 20%;
@@ -145,6 +146,7 @@ border-radius: 50px;
    flex-basis:35%; 
    align-content: center;
    margin-left:70%;
+   font-family: muli;
    
    position: absolute;
  }
@@ -177,6 +179,7 @@ border-radius: 50px;
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
+    font-family: muli;
 
     height: 200px;
 
@@ -237,6 +240,32 @@ background-color: #ffffff;
 
 }
 
+.landing__especificaciones-fondo{
+  display: flex;
+  width: 100%;
+}
 
+.landing__especificaciones-perrito{
+  flex-basis:35%; 
+}
+
+.especificaciones__texto-titulo{
+  flex-basis:55%; 
+  font-family: Anton Regular;
+}
+
+.especificaciones__texto-contenido{
+  flex-basis:55%; 
+  font-family: muli;
+}
+
+.inscripcion__fondo{
+  background-image: url('./imagenes/azul.png');
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
 
 
