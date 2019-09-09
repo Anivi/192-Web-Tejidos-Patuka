@@ -320,20 +320,36 @@ background-color: #ffffff;
   height: 500px;
   background-image: linear-gradient(to right, rgb(250, 198, 27), rgb(255, 255, 255));
   justify-content: space-between;
+  align-items: center;
 
 }
 .landing__interaccion-fondo{
 height: 20%;
 }
 
-.landing__interaccion-lana{
+.landing__interaccion-titulo{
+position: relative;
+font-family: Anton Regular;
+font-size: 55px;
+color: white;
+top: -70px;
+text-align: center;
 
-  width: 100px;
+}
+
+.landing__interaccion-lana{
+  position: relative;
+  flex-basis: 25%;
+  width: 120px;
+  margin-left: 50px;
+  top: -30px;
   
 }
-.interaccion__mujer{
-  
-  
+.landing__interaccion-mujer{
+  flex-basis: 45%;
+  margin-right: 180px;
+
+
 }
 
 
