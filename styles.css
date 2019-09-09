@@ -7,7 +7,9 @@ header{
     height: 18px;
     padding: 20px 0px 20px 0px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2)  ;
-    
+    background-color: #ffffff;
+    z-index:100;
+
 }
 
 .landing{
@@ -20,8 +22,11 @@ body{
     padding: 0;
     margin: 0;
 }
+
+
 .barra__up{
   width: 100%;
+    
 }
 .logo{
    width:108px;
@@ -49,11 +54,14 @@ input{
 .barra__navegador{
   /* border-bottom: 1px solid #4D4C4C;*/
    width: 100%;
-   background: #ffffff;
+   position: relative;
+   top: -55px;
+   /*background: #ffffff;*/
 }
 .barra__navegador ul{
     list-style-type: none;
     text-align: center;
+    
 
     
  }
@@ -62,6 +70,7 @@ input{
     text-align: center;
     margin: 100px 60px 0px 0px ;
     position: relative;
+    
        
 
  }
@@ -78,7 +87,6 @@ input{
  }
   .barra-fixed {
   position:fixed;
-	z-index:1;
 	top:0;
   left:0;
 	width:100%;
@@ -190,6 +198,8 @@ color: #4D4C4C;
    text-align: center;
    color: #535353;
    
+
+   
    position: absolute;
  }
  .aleja__texto-titulo{
@@ -280,8 +290,10 @@ color: #4D4C4C;
   display: flex;
   height: 100%;;
    width:50%; 
-   /*align-content: center;*/
+   align-items: center;
    background-color: #CC98A1;
+   flex-direction: column;
+   justify-content: center;
 
 }
 .landing__galeria-foto{
@@ -295,22 +307,28 @@ width: 50%;
 background-color: #ffffff;
 }
 
-.galeria__mini{
-
+.galeria__mini img{
+  width: 150px;
+  height: 150px;;
 }
 
-.landing__interaccion-fondo{
+.galeria__miniImg{
+  margin-right: 50px;
+}
+.landing__interaccion{
   display: flex;
-  width: 100%;
   height: 500px;
   background-image: linear-gradient(to right, rgb(250, 198, 27), rgb(255, 255, 255));
+  justify-content: space-between;
 
+}
+.landing__interaccion-fondo{
+height: 20%;
 }
 
 .landing__interaccion-lana{
 
   width: 100px;
-  height: 100px;
   
 }
 .interaccion__mujer{
@@ -319,23 +337,39 @@ background-color: #ffffff;
 }
 
 
-.landing__especificaciones-fondo{
+.landing__especificaciones{
   display: flex;
   width: 100%;
+  align-items: center;
+}
+.landing__especificacionesImg{
+  flex-basis:55%; 
 }
 
-.landing__especificaciones-perrito{
+
+.especificaciones__texto{
   flex-basis:35%; 
 }
-
 .especificaciones__texto-titulo{
-  flex-basis:55%; 
+  
   font-family: Anton Regular;
+  text-align: center;
+  font-size:55px ;
+  color: #ffffff;
+  background: rgb(231, 82, 127);
+  background-clip: border-box;
+  border-radius: 10px;
 }
 
 .especificaciones__texto-contenido{
-  flex-basis:55%; 
   font-family: muli;
+  font-size: 23px;
+  color: #4D4C4C;
+  background:  rgb(248, 130, 219, 0.5);
+  background-clip: border-box;
+  border-radius: 10px;
+  
+  
 }
 
 .inscripcion__fondo{
