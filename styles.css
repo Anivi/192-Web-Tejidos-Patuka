@@ -28,7 +28,7 @@ body{
    height:50px;
    position: relative;
    top: -16px; 
-   left: 575px;
+   left: 20px;
 }
 .portada__foto-thor{
     width:108px;
@@ -49,6 +49,7 @@ input{
 .barra__navegador{
   /* border-bottom: 1px solid #4D4C4C;*/
    width: 100%;
+   background: #ffffff;
 }
 .barra__navegador ul{
     list-style-type: none;
@@ -61,8 +62,7 @@ input{
     text-align: center;
     margin: 100px 60px 0px 0px ;
     position: relative;
-    
-    
+       
 
  }
  .barra__navegador li a {
@@ -76,6 +76,16 @@ input{
     background-color: #333333;
     color: #ffffff;
  }
+  .barra-fixed {
+  position:fixed;
+	z-index:1;
+	top:0;
+  left:0;
+	width:100%;
+  box-shadow:0px 4px 3px rgba(0,0,0,.5);
+  
+}
+
  .landing__portada{
   display: flex;
   justify-content: space-around;
@@ -114,8 +124,19 @@ input{
  text-align: center;
 
  }
- .portada__foto-boton{
-
+ .portada__info-boton{
+  position: relative;
+  left:150px;
+  top: 20px;
+  padding: 10px 20px;
+  background-color: white;
+  color: #ffffff;
+  background-color:  rgb(201, 181, 4);
+  border: 0px;
+  border-radius: 20px  ;
+  font-family: muli;
+  font-size:20px ;
+  font-weight: bold;
  }
  .landing__datos{
    display: flex; 
@@ -126,6 +147,7 @@ input{
    padding: auto;
  }
  .datos__uno{
+
 background-color: #ffffff;
 display: flex;
 justify-content: space-around;
@@ -133,8 +155,18 @@ flex-basis: 30%;
 height: 40%;
 margin: auto;
 border-radius: 50px;
+padding: 14px;
+
+
+}
+.datos__uno-text{
 font-family: muli;
- }
+font-size: 28px;
+text-align: center;
+color: #4D4C4C;
+
+}
+ 
  .datos__uno-img{
     width: 20%;
     height: 100%;
@@ -169,15 +201,18 @@ font-family: muli;
    display: flex;
    width: 100%;
    height: 100%;
+
  }
  .aleja__atras-img{
    width: 100%;
    height: 100%;
-   position: relative;
+   
   
  }
 
  .aleja__texto-boton{
+  position: relative;
+  top:27px;
   padding: 10px 20px;
   background-color: white;
   color: #ffffff;
@@ -192,14 +227,13 @@ font-family: muli;
 
  .landing__carac{
    align-content: center;
-   position: relative;
+   
    display: block;
    justify-content: space-around; 
    
  }
  .landing__carac-uno, .landing__carac-dos, .landing__carac-tres{
     width: 100%;
-
     background-image: url('./imagenes/primero.png');
     background-size: cover;
     background-position: top;
@@ -207,6 +241,7 @@ font-family: muli;
     font-family: Anton Regular;
     font-size: 30px;
     color: #ffffff;
+    
 
     height: 200px;
 
@@ -258,6 +293,10 @@ height: 100px;
 height: 100%;
 width: 50%;
 background-color: #ffffff;
+}
+
+.galeria__mini{
+
 }
 
 .landing__interaccion-fondo{
