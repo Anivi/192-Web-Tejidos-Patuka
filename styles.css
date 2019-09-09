@@ -402,18 +402,51 @@ text-align: center;
   flex-basis: 55%;
   position: relative;
   font-family: Anton Regular;
-  font-size: 65px;
+  font-size: 55px;
   color: #ffffff;
   padding: 35px 20px;
 }
 
-.inscripcion__texto{
+.inscripcion__contenido{
   flex-basis:55%;
   position: relative;
+  margin-left: 1px;
   font-family:muli;
-  font-size: 32px;
+  font-size: 22px;
   color: #ffffff;
   padding: 35px 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.inscripcion__correo {
+  border-color: lightgray;
+  color: #fa3468;
+  border-radius: 20px;
+  font-family: muli;
+  border-style: solid;
+  background-color: white;
+  padding: 10px 30px;
+  margin-left: -785px;
+  margin-top: 40px;
+  text-align: left;
+
+}
+
+.inscripcion__correo-boton{
+  position: relative;
+  left:725px;
+  top: 40px;
+  padding: 10px 20px;
+  background-color: white;
+  color: #ffffff;
+  background-color:  rgb(56, 199, 68);
+  border: 0px;
+  border-radius: 20px  ;
+  font-family: muli;
+  font-size:15px ;
+  font-weight: bold;
+  
 }
 
 
