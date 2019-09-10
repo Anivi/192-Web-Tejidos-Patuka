@@ -242,16 +242,15 @@ color: #4D4C4C;
    justify-content: space-around; 
    
  }
- .landing__carac-uno, .landing__carac-dos, .landing__carac-tres{
+ .landing__caracteristica{
     width: 100%;
-    background-image: url('./imagenes/primero.png');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
     font-family: Anton Regular;
     font-size: 30px;
     color: #ffffff;
-    
+    text-align: center;
 
     height: 200px;
 
@@ -261,22 +260,47 @@ color: #4D4C4C;
     justify-content: center;
     align-content: stretch;
     align-items: center;
- }
 
- .landing__carac-dos{
-  background-image: url('./imagenes/segundo.png');
-}
-.landing__carac-tres{
-  background-image: url('./imagenes/tercero.png');
+   
+    -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  
+   
+ }
+ /*h1{
+   opacity: 0;
+ }*/
+
+/* .landing__carac-text{
+  position: relative;
+  margin: auto;
+  text-align: center;
+  font-family: Anton Regular;
+  color: red;
+}*/
+ 
+ .landing__caracteristica:hover{
+  /*-webkit-filter: blur(5px);
+  filter: blur(3px);*/
+
+  
 }
 
- .landing__carac-text{
-   position: relative;
-   margin: auto;
-   text-align: center;
-   font-family: Anton Regular;
-   color: #ffffff;
- }
+.landing__carac-info h1:hover ~ p{
+  opacity: 1;
+}
+
+
+.landing__carac-p{
+  text-align: center;
+  font-family: muli;
+  opacity: 0;
+  transition: all ease-in 0.3s;
+}
+
+
+
+
 
  .landing__galeria{
    width: 100%;
@@ -293,28 +317,29 @@ color: #4D4C4C;
    align-items: center;
    background-color: #CC98A1;
    flex-direction: column;
-   justify-content: center;
+   justify-content: space-around;
+   flex-wrap: wrap;
 
 }
 .landing__galeria-foto{
-width: 100px;
-height: 100px;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+border-radius: 170px;
+width: 170px;
+height: 170px;
 }
 
 .landing__galeria-mostrar{
 height: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
 width: 50%;
 background-color: #ffffff;
 }
 
-.galeria__mini img{
-  width: 150px;
-  height: 150px;;
-}
 
-.galeria__miniImg{
-  margin-right: 50px;
-}
 .landing__interaccion{
   display: flex;
   height: 500px;
@@ -430,6 +455,7 @@ text-align: center;
   margin-left: -785px;
   margin-top: 40px;
   text-align: left;
+  width: 180px;
 
 }
 
@@ -447,6 +473,17 @@ text-align: center;
   font-size:15px ;
   font-weight: bold;
   
+}
+
+.abajo{
+  width:100%;
+  height:400px;
+}
+
+.abajo__logo{
+  position: relative;
+  margin-left:500px;
+  margin-top: 30px;
 }
 
 
