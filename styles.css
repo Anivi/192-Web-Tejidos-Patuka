@@ -465,6 +465,29 @@ text-align: center;
 .landing__especificacionesImg{
   flex-basis:55%; 
 }
+.landing__especificacionesImg:hover{
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+@keyframes shake {
+  10%, 90% {
+  transform: translate3d(-1px, 0, 0);
+  }
+      
+  20%, 80% {
+  transform: translate3d(2px, 0, 0);
+  }
+    
+  30%, 50%, 70% {
+  transform: translate3d(-4px, 0, 0);
+  }
+    
+  40%, 60% {
+  transform: translate3d(4px, 0, 0);
+  }
+    }
 
 
 
@@ -541,7 +564,7 @@ text-align: center;
 
 .inscripcion__correo-boton{
   position: relative;
-  left:725px;
+  left:710px;
   top: 40px;
   padding: 10px 20px;
   background-color: white;
@@ -571,46 +594,97 @@ text-align: center;
 
 .abajo__primero-logo{
   position: relative;
-  margin-left:500px;
+  margin-left:510px;
   margin-top: 30px;
   
 }
 .abajo__uno{
   display: flex;
   width: 100%;
-  width: 5px; 
-  padding: 20px 1000px 20px 0px;
+  width: 50px; 
+  justify-content: space-between;  
+  margin-left: 550px;
 }
 
-.abajo__uno-face{
-flex-basis: 50%;
-position: relative;
-margin-left: 100px;
 
 
-}
-.abajo__uno-inst{
-  flex-basis: 50%;
-  position: relative;
-  margin-left: 200px;
- 
-  }
+
+
 
 .abajo__dos{
-margin-top:10px ;
+margin-top:28px ;
 display: flex;
-
+line-height: 50px;
 }
 
 .abajo__izquierda{
 flex-basis: 55%;
-background: #fa3468;
+
+text-align: center;
+font-family: muli;
+font-size: 23px;
 }
 
 .abajo__derecha{
   flex-basis: 55%;
+  
+  text-align: center;
+  font-family: muli;
+  font-size: 23px;
 
-  background: #555252;
+}
+.abajo__quitarPuntos{
+  list-style:none; 
 }
 
+.abajo__izquierda ul{
+  list-style-type: none;
+  text-align: center;
+  margin-bottom:50px ;
+  
 
+  
+}
+.abajo__izquierda li{
+  position: relative;
+  
+     
+
+}
+.abajo__izquierda li a {
+  padding: 2px 7px 2px 7px;
+  text-decoration: none;
+  color: #4D4C4C;
+  font-family: muli;
+}
+
+.abajo__izquierda li a:hover{
+  background-color: #333333;
+  color: #ffffff;
+
+}
+.abajo__derecha ul{
+  list-style-type: none;
+  text-align: center;
+  
+
+  
+}
+.abajo__derecha li{
+  position: relative;
+  
+     
+
+}
+.abajo__derecha li a {
+  padding: 2px 7px 2px 7px;
+  text-decoration: none;
+  color: #4D4C4C;
+  font-family: muli;
+}
+
+.abajo__derecha li a:hover{
+  background-color: #333333;
+  color: #ffffff;
+
+}
