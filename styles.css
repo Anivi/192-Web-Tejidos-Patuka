@@ -173,6 +173,13 @@ input{
   font-size:20px ;
   font-weight: bold;
  }
+
+ .portada__info-boton:hover {
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgb(231, 197, 4);
+  transition: all 0.2s ease;
+}
+
  .landing__datos{
    display: flex; 
    background-color: rgba(249, 227, 240, 0.7);
@@ -289,6 +296,11 @@ color: #4D4C4C;
   font-weight: bold;
   
  }
+ .aleja__texto-boton:hover {
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgb(209, 89, 155);
+  transition: all 0.2s ease;
+}
 
  .landing__carac{
    align-content: center;
@@ -455,6 +467,7 @@ text-align: center;
 }
 
 
+
 .especificaciones__texto{
   flex-basis:35%; 
 }
@@ -542,15 +555,62 @@ text-align: center;
   
 }
 
-.abajo{
-  width:100%;
-  height:400px;
+.inscripcion__correo-boton:hover {
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgb(14, 202, 7);
+  transition: all 0.2s ease;
 }
 
-.abajo__logo{
+
+.abajo{
+  width:100%;
+  height:300px;
+}
+
+
+
+.abajo__primero-logo{
   position: relative;
   margin-left:500px;
   margin-top: 30px;
+  
+}
+.abajo__uno{
+  display: flex;
+  width: 100%;
+  width: 5px; 
+  padding: 20px 1000px 20px 0px;
+}
+
+.abajo__uno-face{
+flex-basis: 50%;
+position: relative;
+margin-left: 100px;
+
+
+}
+.abajo__uno-inst{
+  flex-basis: 50%;
+  position: relative;
+  margin-left: 200px;
+ 
+  }
+
+.abajo__dos{
+margin-top:10px ;
+display: flex;
+
+}
+
+.abajo__izquierda{
+flex-basis: 55%;
+background: #fa3468;
+}
+
+.abajo__derecha{
+  flex-basis: 55%;
+
+  background: #555252;
 }
 
 
